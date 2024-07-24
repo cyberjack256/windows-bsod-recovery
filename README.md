@@ -16,4 +16,4 @@ This script will add a registry entry to enable triggering a BSOD using the keyb
 - The script adds unique timestamps to each file name to ensure uniqueness.
 - Running `TriggerBSOD.ps1` requires a system reboot for the changes to take effect.
 
-For further assistance, please contact your support team.
+For further assistance with the outage visit [CrowdStrike](https://www.crowdstrike.com).
