@@ -1,13 +1,17 @@
-# Channel File Generation Script
+# Recovery Support for Ongoing Outage
+
+This repository is in support of recovery videos for the ongoing outage. It contains scripts to generate regular and bad channel files and to trigger a BSOD for testing purposes.
+
+## Channel File Generation Script
 
 This script generates 90 regular channel files and one bad channel file in the CrowdStrike directory on a Windows system. These files simulate AV signature updates for the Falcon sensor.
 
-## Prerequisites
+### Prerequisites
 
 - Windows operating system with PowerShell.
 - Administrative privileges to write to C:\Windows\System32\drivers\CrowdStrike.
 
-## Instructions
+### Instructions
 
 1. **Download the Scripts**
 
@@ -47,6 +51,7 @@ Navigate to the directory where you saved the scripts and run them.
 
 The script will generate 90 regular channel files and one bad channel file in the C:\Windows\System32\drivers\CrowdStrike directory.
 
+## BSOD Trigger Setup Script
 **Trigger BSOD**
 
 ```Powershell
