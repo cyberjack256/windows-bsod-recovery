@@ -15,8 +15,8 @@ This script generates 90 regular channel files and one bad channel file in the C
 
    **Option 1: Download using curl**
 ```Powershell
-curl -O https://yourdomain.com/path/to/GenerateChannelFiles.ps1
-curl -O https://yourdomain.com/path/to/TriggerBSOD.ps1
+curl -O https://github.com/cyberjack256/windows-bsod-recovery/GenerateChannelFiles.ps1
+curl -O https://github.com/cyberjack256/windows-bsod-recovery/TriggerBSOD.ps1
 ```
 
 **Option 2: Copy and Save**
@@ -42,7 +42,6 @@ Navigate to the directory where you saved the scripts and run them.
 
 **Generate Channel Files**
 ```Powershell
-cd path\to\your\script
 .\GenerateChannelFiles.ps1
 ```
 
@@ -51,7 +50,6 @@ The script will generate 90 regular channel files and one bad channel file in th
 **Trigger BSOD**
 
 ```Powershell
-cd path\to\your\script
 .\TriggerBSOD.ps1
 ```
 
